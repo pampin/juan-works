@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 # layout: home
-
 #
 # Use the widgets beneath and the content will be
 # inserted automagically in the webpage. To make
