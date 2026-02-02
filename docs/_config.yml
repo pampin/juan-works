@@ -34,9 +34,28 @@ github_username:  pampin
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-asciidoc
+  - jekyll-gist
+  - jekyll-paginate
 
 # remote_theme: benbalter/retlab
 remote_theme: ../../feeling-responsive
+
+# the following stuff comes from feeling-responsible's font matter
+
+# This is for the editing function in _/includes/improve_content
+# Leave it empty if your site is not on GitHub/GitHub Pages
+improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash at the end.
+#
+# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
+#
+urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
