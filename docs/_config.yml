@@ -30,10 +30,13 @@ url: "https://pampin.github.io" # the base hostname & protocol for your site, e.
 github_username: pampin
 
 # Build settings
-theme: minima
-# theme: minimal
+# theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  
+remote_theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
